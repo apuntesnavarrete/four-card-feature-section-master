@@ -133,3 +133,24 @@ body{
         grid-row: 4 / 5;
       }
   }
+  @media (max-width: 600px) {
+    .header_content{
+        width: 400px;
+    }
+
+  }
+
+  @media (max-width: 400px) {
+    .header_content{
+        width: 300px;
+    }
+    .header_subtitulo{
+        font-size: 1.4rem;
+    }
+    .header_titulo{
+        font-size: 1.5rem;
+    }
+    .header_description{
+        font-size: 0.9rem;
+    }
+  }
